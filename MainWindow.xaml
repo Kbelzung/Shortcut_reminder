@@ -1,0 +1,14 @@
+﻿<Window x:Class="shortcut_reminder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ctrl Image App" Height="450" Width="800"
+        KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Grid>
+
+        <Image x:Name="img" Stretch="Fill" Visibility="Hidden">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="2000"  UriSource="D:\dev\WpfApp1\Resources\ve1jv3m3qqj21.png" />
+            </Image.Source>
+        </Image>
+    </Grid>
+</Window>
